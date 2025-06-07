@@ -63,8 +63,8 @@
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Api Reference",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Blog",
+          "href": "https:/docs.amisend.com/api-reference/introduction",
           "icon": "newspaper"
         }
       ]
@@ -78,20 +78,19 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:contacto@amisend.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Ger Started",
+      "href": "https://www.amisend.com/login"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com",
       "github": "https://github.com/amisend",
-      "linkedin": "https://linkedin.com"
+      "linkedin": "https://www.linkedin.com/company/amisend/"
     }
   }
 }
