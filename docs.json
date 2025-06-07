@@ -63,7 +63,7 @@
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
+          "anchor": "Api Reference",
           "href": "https://mintlify.com/blog",
           "icon": "newspaper"
         }
