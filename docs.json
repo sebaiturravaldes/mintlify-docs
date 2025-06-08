@@ -9,66 +9,43 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "anchors": [
+    {
+      "anchor": "Documentation",
+      "icon": "book-open",
+      "pages": [
+        "index",
+        "quickstart",
+        "development"
+      ]
+    },
+    {
+      "anchor": "API Reference",
+      "openapi": "api-reference/openapi.json",
+      "icon": "square-terminal",
+      "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
+        "group": "API Reference",
+        "pages": [
+          "api-reference/introduction"
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+        "group": "Email",
+        "pages": [
+          "api-reference/email/send-email",
+          "api-reference/email/update-email"
+        ]
+      },
+      {
+        "group": "Plants",
+        "pages": [
+          "api-reference/endpoint/create"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Api Reference",
-          "href": "https:/docs.amisend.com/api-reference/introduction",
-          "icon": "newspaper"
-        }
-      ]
+    ]
     }
+  ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -83,7 +60,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Ger Started",
+      "label": "Get Started",
       "href": "https://www.amisend.com/login"
     }
   },
